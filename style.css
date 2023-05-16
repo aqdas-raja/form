@@ -1,0 +1,81 @@
+body {
+  background-image: url('Images/Bc\ image1.avif');
+  font-family: Arial, sans-serif;
+  
+   
+  
+  
+}
+
+.container {
+  position: absolute;
+  top:20%;
+  left:38%;
+  margin-right: 60%;
+  align-items: center;
+  height: auto;
+}
+
+.section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button.btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 100%;
+}
+
+button.btn:hover {
+  background-color: #45a049;
+}
+
+.sign-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sign-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
